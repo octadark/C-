@@ -2,10 +2,12 @@
 using namespace std;
 
 int main() {
+    //declaración de variables
     double cantidad_bombones;
     double precio = 1000;
     double iva = 0.19;
     double descuento = 0.10;
+    
     cout << "Ingrese la cantidad de bombones: " << endl;
     cin >> cantidad_bombones;
 
